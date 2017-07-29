@@ -653,7 +653,7 @@ footer.footer {
   footer.footer a {
     color: rgba(255, 255, 255, 0.7); }
     footer.footer a:hover {
-      color: white; }
+      color: blue; }
   footer.footer p {
     font-size: 22px; }
   footer.footer .footer-contact-details {
