@@ -171,3 +171,12 @@ $(document).ready(function () {
 
 
 });
+var anchor = document.getElementById('anchor');
+
+anchor.addEventListener('click', doSomething, false);
+
+function doSomething() {
+    alert('My resume will open in a new tab');
+    var win = window.open("HZ_Resume.pdf", '_blank');
+    win.focus();
+}
